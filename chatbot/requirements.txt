@@ -1,0 +1,17 @@
+# 문서 모드(RAG): Ollama HTTP 호출, 벡터 계산
+httpx
+numpy
+python-dotenv
+
+# 웹 서버
+fastapi
+uvicorn[standard]
+
+# 로그인 (비밀번호 해시, JWT)
+bcrypt
+PyJWT
+
+# DB (PostgreSQL)
+psycopg[binary]
+
+# SQL 모드: 같은 저장소의 text-to-sql 폴더를 먼저 설치한다 (README 참고)
